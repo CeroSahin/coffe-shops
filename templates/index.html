@@ -1,0 +1,24 @@
+{% include 'header.html' %}
+    <div class="container-fluid">
+      <h1 class="big-heading">INTERCAFE</h1>
+      <h3 class="sub-heading">is where you can find <br>your place to chit-study</h3>
+    </div>
+
+  </section>
+  <!-- All Cafes -->
+  <section id="all-cafes">
+    <h1 style="padding-top: 3rem;" class="cafe-heading">Find the best one that suits you!</h1>
+    <div class="row">
+      {% for cafe in all_cafes %}
+      <div class="all-cafes-div col-lg-4 col-md-6 mx-auto">
+        <img class="cafe-img" src="{{ cafe.img_url }}">
+        <h1 class="cafe-heading">{{ cafe.name }}</h1>
+        <h3 class="cafe-sub-heading">{{ cafe.coffee_price }} </h3>
+        <p><a class="more-info-link" href="{{ url_for('show_cafe', id=cafe.id) }}" >Show Me More!</a></p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
+{% include 'footer.html' %}

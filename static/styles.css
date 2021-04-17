@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  background-color: #E8E7E7;
+}
+
+p {
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Navbar */
+.nav-link, .big-nav-link {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  color: white;
+}
+
+.navbar-dark {
+  padding-left: 5%;
+}
+
+/* Main Page */
+.container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #e2bcb7;
+  background-image: url("https://i.pinimg.com/474x/7c/82/f1/7c82f13a483ac6babf368faa7200d074.jpg");
+  background-size: contain;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5rem;
+  color: white;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  margin-left: 3%;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  margin-left: 3%;
+}
+
+.cafe-img {
+    height: 300px;
+    width: 350px;
+    padding: 3rem;
+}
+
+.all-cafes-div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.more-info-link {
+    color: #FFCA2C;
+    text-decoration: none;
+}
+
+.more-info-link :hover {
+    color: black;
+}
+
+/* Show One Cafe */
+.cafe-container {
+    padding: 7%;
+}
+
+.cafe-heading {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+.cafe-sub-heading {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.cafe-img-big {
+    height: 400px;
+    width: 500px;
+    padding: 3rem;
+}
+
+.control {
+    margin: 1%;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+/* Footer */
+.footer-bar {
+  background-color: #746161;
+  padding: 3%;
+}
+
+.footer-msg {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.media-links {
+  padding: 15px;
+  color: white;
+}
+
+.media-links :hover {
+  color: #7AB9F0;
+}
